@@ -29,12 +29,11 @@ a{
 /*MAIN STYLES*/
 .main-nav {
     padding-top: 2em;
-}
 
+}
 .nav {
   margin-top:  1.5em;
 }
-
 
 .nav a {
   display: block;
@@ -43,7 +42,7 @@ a{
   font-weight: 900;
   text-align: center;
   padding: 1.25em;
-  /* border-bottom: 1px solid #ebecec; */
+
 
 }
 
