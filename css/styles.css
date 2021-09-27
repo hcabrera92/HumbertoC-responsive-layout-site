@@ -8,8 +8,53 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  background-color: 2C2C2C;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+
+}
+
+
+/*MAIN STYLES*/
+.main-nav {
+    padding-top: 2em;
+}
+
+.nav {
+  margin-top:  1.5em;
+}
+
+
+.nav a {
+  display: block;
+  color: #F8971D;
+  font-size: 1.125em;
+  font-weight: 900;
+  text-align: center;
+  padding: 1.25em;
+  /* border-bottom: 1px solid #ebecec; */
+
+}
+
+nav a:hover {
+  color: white;
+
+}
+
+.name-logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.25em;
+  color: white;
+
 }
