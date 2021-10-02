@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 1em;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   background-color: 2C2C2C;
@@ -35,7 +35,10 @@ a{
 
 }
 
-
+.container {
+    width: 99%; /*for mobile & tablet*/
+    max-width: 1200px; /*for desktops*/
+    margin: 0 auto; /*this will center everything no matter the width of the viewport*/
 /*MAIN STYLES*/
 .main-nav {
     padding-top: 2em;
@@ -77,4 +80,8 @@ footer {
     font-size: 1em;
     color: white;
 
+}
+
+footer, li {
+  color: white;
 }
